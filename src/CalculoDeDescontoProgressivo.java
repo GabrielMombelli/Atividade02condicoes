@@ -14,7 +14,7 @@ public class CalculoDeDescontoProgressivo {
             System.out.println("O valor do produto com desconto é: " + (valor * 0.8));
         }else if (valor >= 200 && valor <= 500) {
             System.out.println("O valor do produto com desconto é: " + (valor * 0.9));
-        } else if (valor >= 100 && valor <= 199) {
+        } else if (valor >= 100 && valor < 200) {
             System.out.println("O valor do produto com desconto é: " + (valor * 0.95));
         }else
             {System.out.println("O valor da compra não é elegivel a desconto, seu valor é: " + valor);
