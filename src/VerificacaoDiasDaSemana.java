@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class VerificacaoDiasDaSemana {public static void main(String[] args) {
+public class VerificacaoDiasDaSemana {
+    public static void main(String[] args) {
 
     int diaDaSemana = 0;
     Scanner sc = new Scanner(System.in);
